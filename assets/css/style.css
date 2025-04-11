@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #10002B;
+}
+
+.navbar-principal {
+    background-color: rgba(60,9,108,0.20);
+    padding-left: 271px;
+    padding-right: 271px;
+    backdrop-filter: blur(2px);
+    position: fixed;
+    width: 100%;
+}
+
+.profile_logo {
+    border-radius: 62px;
+}
+
+.navbar_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-logo_nombre {
+    color: #E0AAFF;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.navbar_link {
+    color: #E0AAFF;
+    font-size: 1.2em;
+}
+
+.navbar_link:hover {
+    color: #7B2CBF;
+}
+
+.navbar_link:active {
+    color: #7B2CBF;
+}
+
+
+.hero_principal {
+    background-color: rgba(36, 0, 70, 0.40);
+    /* height: 620px; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+
+.hero_descripcion {
+    font-size: 5em;
+    color: #C77DFF;
+}
+
+.hero_nombre {
+    font-size: 5em;
+    color: #7B2CBF;
+}
+
+.hero_buttons {
+    margin-top: 60px;
+}
+
+.hero_btn {
+    background-color: #3C096C;
+    border: 0;
+    border-radius: 50px;
+    color: #E0AAFF;
+    font-size: 1.3em;
+    width: 200px;
+    height: 58px;
+}
+
+.hero_btn:hover {
+    background-color: #7a2cbf8a;
+}
+
+.hero_btn_git {
+    margin-right: 100px;
+}
+
+.experiencia_principal {
+    margin-top: 50px;
+    padding-left: 271px;
+    padding-right: 271px;
+    color: #E0AAFF;
+}
+
+.experiencia_titulo {
+    color: #9D4EDD;
+    font-weight: bold;
+}
+
+.experiencia_historial {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.experiencia_historial-titulo{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.experiencia_historial-descripcion {
+    margin-left: 30px;
+    font-size: 1.2em;
+}
+
+.experiencia_historial-contenido-b {
+    margin-top: 20px;
+}
+
+.proyectos_principal {
+    margin-top: 50px;
+    padding-left: 271px;
+    padding-right: 271px;
+    color: #E0AAFF;
+}
+
+.proyectos_titulo {
+    color: #9D4EDD;
+    font-weight: bold;
+}
+
+.proyectos_contenido {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.proyectos_contenido-descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.proyectos_contenido-titulo{
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.proyectos_contenido-descripcion{
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+.proyectos_contenido_img-derecha {
+    width: 550px;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 180px;
+}
+.proyectos_contenido_img-izquierda {
+    width: 550px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 180px;
+}
+
+.habilidades_principal {
+    margin-top: 50px;
+    padding-left: 271px;
+    padding-right: 271px;
+    color: white;
+}
+
+.habilidades_titulo {
+    color: #9D4EDD;
+    font-weight: bold;
+}
+
+.habilidades_repertorio {
+    display: flex;
+    margin-top: 30px;
+}
+.habilidades_repertorio-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.skill-img {
+    height: 90px;
+    width: fit-content;
+}
+
+.skill-desc {
+    font-size: 1.3em;
+}
+
+.sobremi_principal {
+    margin-top: 50px;
+    padding-left: 271px;
+    padding-right: 271px;
+    color: #E0AAFF;
+}
+
+.sobremi_titulo {
+    color: #9D4EDD;
+    font-weight: bold;
+}
+
+.sobremi_descripcion {
+    margin-top: 30px;
+    font-size: 1.3em;
+}
+
+.contacto_principal {
+    margin-top: 50px;
+    padding-left: 271px;
+    padding-right: 271px;
+    color: #E0AAFF;
+}
+
+.contacto_titulo {
+    color: #9D4EDD;
+    font-weight: bold;
+}
+
+.contacto_label {
+    font-size: 1.3em;
+}
+
+.form-control {
+    background-color: #5A189A;
+    border-color: #5A189A;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.form-control::placeholder, .form-control:focus{
+    background-color: #5A189A;
+    border-color: #5A189A;
+    color: #E0AAFF;
+}
+
+footer {
+    background-color: #240046;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-desc {
+    color: #9D4EDD;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+
+/* media queries */
+
+@media (max-width: 768px) {
+    .navbar-principal,
+    .experiencia_principal,
+    .proyectos_principal,
+    .habilidades_principal,
+    .sobremi_principal,
+    .contacto_principal {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .proyectos_contenido {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proyectos_contenido_img-derecha,
+    .proyectos_contenido_img-izquierda {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .habilidades_repertorio {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .habilidades_repertorio-skill {
+        padding: 20px 0;
+    }
+
+    .hero_descripcion,
+    .hero_nombre {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .hero_buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero_btn_git {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
