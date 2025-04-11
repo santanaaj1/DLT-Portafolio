@@ -1,5 +1,5 @@
 <h1> Desafio Latam Portafolio/CV</h1>
-<h2><a href="https://memereh.github.io/DLT-Portafolio/">Pagina de mi portafolio desplegado en github pages</a></h2>
+<h2><a href="https://memereh.github.io/DLT-Portafolio/" target="_blank" rel="noopener noreferrer">Pagina de mi portafolio desplegado en github pages</a></h2>
 
 <h3>Proyectos forkeados y comits:</h3>
 
